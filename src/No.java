@@ -1,8 +1,8 @@
 public class No {
-    Integer conteudo;
-    No filhoDireito, filhoEsquerdo;
+    String conteudo;
+    No filhoEsquerdo, filhoDireito;
 
-    public No(Integer conteudo) {
+    public No(String conteudo) {
         this.conteudo = conteudo;
         this.filhoEsquerdo = null;
         this.filhoDireito = null;
