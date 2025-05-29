@@ -41,7 +41,7 @@ public class Arvore {
         }
     }
 
-    // Percurso em nível
+    // Em-nível
     public void percorrerNivel(No node) {
         if (node == null) return;
         Queue<No> fila = new LinkedList<>();
