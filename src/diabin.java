@@ -1,6 +1,7 @@
 public class diabin {
     public static void main(String[] args) {
         Arvore arvore = new Arvore();
+        ArvoreAVL arvoreAVL = new ArvoreAVL();
 
         // Arvore do djabo:
         //         A
@@ -9,7 +10,7 @@ public class diabin {
         //    / \       \
         //   D   E       F
 
-        arvore.raiz = new No("A");
+        /*arvore.raiz = new No("A");
         arvore.raiz.filhoEsquerdo = new No("B");
         arvore.raiz.filhoDireito = new No("C");
         arvore.raiz.filhoEsquerdo.filhoEsquerdo = new No("D");
@@ -33,6 +34,10 @@ public class diabin {
 
         System.out.print("Por nível: ");
         arvore.percorrerNivel(arvore.raiz);
-        System.out.println();
+        System.out.println();*/
+
+        arvoreAVL.inserirDados("aa, adada");
+
+
     }
 }
